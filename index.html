@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--compatibilidade-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+    <title>E-book A Bruxa</title>
+</head>
+
+<body>
+    <header>  
+        <nav class='menu'>
+            <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>O Livro</a></li>
+                <li><a href='#'>A Autora</a></li>
+            </ul>   
+        </nav>
+    </header>
+    
+    <div class='synopsis'>
+        <p>Coisas estranhas começam a acontecer quando uma nova moradora chega na cidade. Prepare-se.</p>
+        <input type="button" class="btn" value="Clique aqui para garantir o seu" id="btn"></input>
+    </div>
+
+    <div class='visual'> 
+        <img src="ebook_cover.jpg" alt="capa-livro" class='img'>
+    </div>
+
+    <section class="cadastro"> 
+        <form class="fcadastro" method="post" action="mailto:#" oninput="">
+            <button class="fechar">x</button>
+            <div class="dprincipais">
+                <p>Nome: <input type="text" class="fNome" name="nome" size="40" autofocus="autofocus" required></p>
+                <p>Telefone: <input type="tel" class="fTel" name="tel" maxlength="12"></p>
+                <p>E-mail: <input type="email"  class="fEmail" name="email" size="40" required></p>
+                <p> *Entraremos em contato por este e-mail para pagamentos e status de entrega</p> 
+                <button type="submit" class="btn"> Enviar informações </button>
+            </div>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
