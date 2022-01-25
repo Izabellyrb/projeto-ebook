@@ -207,7 +207,7 @@ p > input {
     /* modal on */
     .fcadastro {
         width: 40vw;
-        height: 35vh;
+        height: 30rem;
         font-size: 4rem;
     }
 
@@ -235,7 +235,7 @@ p > input {
     /* modal on */
     .fcadastro {
     font-size: 3.2rem;
-    height: 32vh;
+    height: 28rem;
     }
 
     .btn {
@@ -250,7 +250,7 @@ p > input {
     body {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20% 10% 70%;
+        grid-template-rows: 10% 30% 60%;
         grid-template-areas: 
         '1'
         '2'
@@ -291,15 +291,18 @@ p > input {
         grid-area: 3;
     }
 
+    .img {  
+        width: 20rem;
+    }
+
     /* modal on */
     .cadastro.on{
         position: absolute;
     }
 
     .fcadastro {
-        font-size: 3rem;
         width: 80vw;
-        height: 30vh;
+        height: 25rem;
         }
 
     .btn {
