@@ -279,12 +279,12 @@ p > input {
     }
 
     .synopsis p {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     
     .btn {
-        margin: 1rem 0 1rem 0;
-        font-size: 1.8rem;
+        margin: 1rem 0 0rem 0;
+        font-size: 1.4rem;
     }
 
     .visual {
@@ -292,7 +292,7 @@ p > input {
     }
 
     .img {  
-        width: 20rem;
+        width: 15rem;
     }
 
     /* modal on */
